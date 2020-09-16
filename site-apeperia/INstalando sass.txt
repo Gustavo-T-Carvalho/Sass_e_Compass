@@ -1,0 +1,46 @@
+Instalando
+Com o Ruby instalado, dê o comando abaixo e aguarde o término da instalação.
+
+gem install sass
+
+ou
+
+sudo gem install sass
+O "sudo" para usuários Ubuntu Linux
+
+Erros
+Caso dê algum erro, certifique-se que o Ruby foi instalado.
+
+Caso o erro persista, instale manualmente as GEMs que usaremos no curso seguindo o tutorial abaixo:
+
+1 - Vá no https://rubygems.org e baixe as seguintes gems:
+
+sass
+chunky_png
+fssm
+compass
+2 - Jogue-as na raiz da pasta de instalação do Ruby (normalmente fica no C: )
+
+3 - Ainda na pasta do Ruby, na barra de endereços do Explorer, digite cmd . e depois dê Enter, pra abrir o prompt do Windows direto nessa pasta.
+
+4 - Instale o Sass gem install sass
+
+5 - Aproveite e já instale o Compass gem install compass
+
+6 - Verifique se foram instalados dando sass -v e depois compass -v
+
+7 - Espera-se que apareça as versões que foram instaladas.
+
+Ainda com erro
+Se mesmo instalando direto no diretório do Ruby não resolver e estiver dando um erro como ERROR: Could not find a valid gem 'sass' (>= 0), here is why: Unable to download data from https://rubygems.org/ (...), dê o o comando abaixo no terminal e em seguida instale o Sass normalmente.
+
+gem source -a http://rubygems.org
+
+Outra solução(Linux)
+Dê o seguinte comando :
+
+sudo apt install ruby-full rubygems autogen autoconf libtool make
+
+E Depois:
+
+gem install sass

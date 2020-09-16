@@ -1,0 +1,13 @@
+Vimos durante o curso que o Sass é uma ferramenta poderosa que agiliza muito o nosso trabalho. Como falamos em um primeiro momento, ele é um CSS com superpoderes.
+
+Entretanto, é importante tomar cuidado. O Sass pode facilitar o desenvolvimento no dia a dia, mas não necessariamente fará do seu CSS um CSS melhor. É preciso tomar cuidado.
+
+Uma boa prática, que usamos durante todo esse curso, é sempre conferir o arquivo .css gerado a cada alteração feita no .scss, seja ela uma nova variável, um mixin, ou um placeholder. É importante ver se nada foi esquecido, ou se há repetição desnecessária de código.
+
+Outro ponto importante é ter um uso econômico dos mixins, sempre verificando se um placeholder não é o mais adequado por uma repetição exata de código. Se há um valor que precisa variar, a escolha do mixin é acertada.
+
+Mais um toque final: no curso, criamos as pastas base, helpers e layout dentro da pasta css.
+
+
+
+Mas é importante que você crie as suas próprias pastas de acordo com as necessidades do seu projeto, da sua equipe ou da sua empresa. Boa sorte e até o próximo curso!
